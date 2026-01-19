@@ -1,0 +1,36 @@
+2026-01-08 09:56:40,855 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-08 09:56:40,855 - INFO - [RabbitMQConsumer] 📡 Conexión no establecida. Conectando...
+2026-01-08 09:56:40,870 - INFO - [RabbitMQConsumer] ✅ Conectado a RabbitMQ - Consumer
+2026-01-08 09:56:40,873 - INFO - [RabbitMQConsumer] 🎧 Esperando mensajes...
+2026-01-08 09:56:40,873 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-08 09:56:41,027 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-08 09:56:41,517 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-08 09:59:45,463 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | SANTA MARTA (MAGDALENA)
+2026-01-08 09:59:45,463 - INFO - [GetDataService] 📌 4 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-08 09:59:45,463 - INFO - [LandRestScrapperEdicts]   Edictos: [{'codProceso': '47001312100220180008900', 'predio': 'LA MARUJA', 'municipioPredio': 'SEVILLANO (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': '2D4320C61378CE3B5498CF1ED9EDEA35CC07916A3DCFA30A97EEBED8DB58BA4C', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b19', 'tracker': '47001312100220180008900270140530199'}}, {'codProceso': '47001312100220250003500', 'predio': 'Parcela 20 (Tranquilandía) El Oasis', 'municipioPredio': 'ARACATACA (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': 'D40D48174E11C43450E512728CA6AC140E6ED42911A819C939A8B37317C91CDD', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1a', 'tracker': '47001312100220250003500270140530029'}}, {'codProceso': '47001312100220250003700', 'predio': 'Hacienda Florencia-parcela', 'municipioPredio': 'SAN ÁNGEL (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': '9C76ADFB307D58BF95C60640EB3615D36904CEBA8CB1C33479112C4BD5E31BFA', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1b', 'tracker': '47001312100220250003700270140530036'}}, {'codProceso': '47001312100220250003900', 'predio': 'EL ENGAÑO', 'municipioPredio': 'CHIVOLO (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': '931CCB269A7CE67156AE82E851880D70934A181A12016AF1FA8D925DA18774AD', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1c', 'tracker': '47001312100220250003900270140530019'}}]
+2026-01-08 09:59:45,463 - INFO - [LandRestScrapperEdicts] 📌 Hay 4 edictos para el despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 26893)
+2026-01-08 09:56:42,221 - INFO - [UploadDataService]   oracleId: 2066778
+2026-01-08 09:56:42,222 - INFO - [UploadDataService]  filename: 2025_1212_Samai_4701_26893_19_2066778_0_Juzgado Circuito 002 Especializado en Restitución de tierras_EDICTO
+2026-01-08 09:56:42,222 - INFO - [UploadDataService]   awsName: SCAN_20251212_Samai_2066778.pdf
+2026-01-08 09:56:42,222 - INFO - [UploadDataService] 🌐 Descargando edicto desde: https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b19
+2026-01-08 09:56:42,750 - WARNING - [UploadDataService] ⚠️ Tipo de archivo no soportado: text/html
+2026-01-08 09:56:42,750 - WARNING - [UploadDataService] ⚠️ No se pudo generar el PDF del edicto
+2026-01-08 09:56:42,886 - INFO - [UploadDataService]   oracleId: 2066779
+2026-01-08 09:56:42,887 - INFO - [UploadDataService]  filename: 2025_1212_Samai_4701_26893_19_2066779_0_Juzgado Circuito 002 Especializado en Restitución de tierras_EDICTO
+2026-01-08 09:56:42,887 - INFO - [UploadDataService]   awsName: SCAN_20251212_Samai_2066779.pdf
+2026-01-08 09:56:42,887 - INFO - [UploadDataService] 🌐 Descargando edicto desde: https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1a
+2026-01-08 09:56:43,317 - WARNING - [UploadDataService] ⚠️ Tipo de archivo no soportado: text/html
+2026-01-08 09:56:43,317 - WARNING - [UploadDataService] ⚠️ No se pudo generar el PDF del edicto
+2026-01-08 09:56:43,404 - INFO - [UploadDataService]   oracleId: 2066780
+2026-01-08 09:56:43,405 - INFO - [UploadDataService]  filename: 2025_1212_Samai_4701_26893_19_2066780_0_Juzgado Circuito 002 Especializado en Restitución de tierras_EDICTO
+2026-01-08 09:56:43,405 - INFO - [UploadDataService]   awsName: SCAN_20251212_Samai_2066780.pdf
+2026-01-08 09:56:43,405 - INFO - [UploadDataService] 🌐 Descargando edicto desde: https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1b
+2026-01-08 09:56:43,758 - WARNING - [UploadDataService] ⚠️ Tipo de archivo no soportado: text/html
+2026-01-08 09:56:43,758 - WARNING - [UploadDataService] ⚠️ No se pudo generar el PDF del edicto
+2026-01-08 09:56:43,838 - INFO - [UploadDataService]   oracleId: 2066781
+2026-01-08 09:56:43,838 - INFO - [UploadDataService]  filename: 2025_1212_Samai_4701_26893_19_2066781_0_Juzgado Circuito 002 Especializado en Restitución de tierras_EDICTO
+2026-01-08 09:56:43,838 - INFO - [UploadDataService]   awsName: SCAN_20251212_Samai_2066781.pdf
+2026-01-08 09:56:43,838 - INFO - [UploadDataService] 🌐 Descargando edicto desde: https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1c
+2026-01-08 09:56:44,199 - WARNING - [UploadDataService] ⚠️ Tipo de archivo no soportado: text/html
+2026-01-08 09:56:44,199 - WARNING - [UploadDataService] ⚠️ No se pudo generar el PDF del edicto
+2026-01-08 09:56:44,279 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado

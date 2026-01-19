@@ -1,0 +1,123 @@
+
+
+services:
+  rabbitmq:
+    image: rabbitmq:4.1-management
+    container_name: rabbitmq_land_restitution
+    # ports:
+    # - "5672:5672"
+    # - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: admin
+      RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS: "-rabbit consumer_timeout 7200000 -rabbit heartbeat 30"
+    networks:
+      - rabbitmq_net
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+    deploy:
+      resources:
+        limits:
+          memory: 3000m   # Máx 512 MB RAM
+  
+  ssh_tunnel_land_restitution:
+    image: alpine:latest
+    container_name: ssh_tunnel_land_restitution
+    volumes:
+      - ./stack/ssh_tunnel/bd-tunnel.sh:/bd-tunnel.sh:ro
+      - ./stack:/keys
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    command: sh /bd-tunnel.sh
+    env_file:
+      - ./stack/ssh_tunnel/.env
+    networks:
+      - rabbitmq_net
+    restart: always
+    healthcheck:
+      test: ["CMD", "sh", "-c", "netstat -tn | grep -q ESTABLISHED"]
+      interval: 25s
+      timeout: 10s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    deploy:
+      resources:
+        limits:
+          memory: 1000M
+        reservations:
+          memory: 256M
+
+  ms_watcher:
+    build:
+      context: ./ms_watcher
+      dockerfile: dockerfile
+    container_name: ms_watcher_land_restitution
+    ports:
+      - "127.0.0.1:5080:5080"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - rabbitmq_net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5080/health"]
+      interval: 2m
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    volumes:
+      - ./output:/app/output
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+    deploy:
+      resources:
+        limits:
+          memory: 1000m
+
+  scrapper_land_rest_states:
+    build:
+      context: ./scrapper_land_rest_states
+      dockerfile: dockerfile
+
+    depends_on:
+      ms_watcher:
+        condition: service_healthy
+    networks:
+      - rabbitmq_net
+    volumes:
+      - ./output:/app/output
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          memory: 2000m
+  
+networks:
+  rabbitmq_net:
+    driver: bridge
+    

@@ -1,0 +1,802 @@
+2025-12-26 16:17:42,134 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2025-12-26 16:17:42,134 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2025-12-26 16:17:55,802 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 50 despachos
+2025-12-26 16:17:55,804 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,805 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,808 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,809 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,810 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,812 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,814 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,815 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,817 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,818 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,820 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,821 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,822 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,822 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,823 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,825 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,827 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,828 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,830 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,832 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,833 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,834 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,835 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,837 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,839 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,840 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,841 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,843 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,844 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,846 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,847 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,848 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,849 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,850 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,852 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,854 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,855 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,856 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,858 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,859 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,860 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,861 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,863 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,865 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,867 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,868 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,869 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,870 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,871 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,872 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,873 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,874 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,876 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,877 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,878 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,879 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,880 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,883 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,884 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,886 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,888 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,889 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,890 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,891 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,893 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,895 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,896 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,897 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,899 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,901 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,902 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,902 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,903 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,904 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,905 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,906 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,907 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,907 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,909 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,910 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,911 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,912 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,913 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,914 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,914 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,915 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,916 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,917 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,918 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,918 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,919 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,920 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,921 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,923 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,925 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,926 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,928 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,929 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-26 16:17:55,930 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-26 16:17:55,931 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:00:37,628 - INFO - [RabbitMQProducer] 🔌 Conexión con RabbitMQ cerrada
+2025-12-30 12:02:56,134 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2025-12-30 12:02:56,134 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2025-12-30 12:03:07,273 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 50 despachos
+2025-12-30 12:03:07,275 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,276 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,278 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,278 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,281 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,281 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,282 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,283 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,284 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,285 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,286 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,286 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,288 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,289 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,290 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,291 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,293 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,294 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,294 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,297 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,299 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,301 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,303 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,304 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,305 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,307 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,308 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,309 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,310 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,311 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,311 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,312 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,313 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,314 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,315 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,316 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,317 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,318 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,319 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,320 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,321 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,322 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,323 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,324 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,325 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,326 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,328 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,329 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,332 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,333 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,334 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,335 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,342 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,344 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,345 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,346 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,347 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,347 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,348 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,359 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,365 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,366 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,367 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,368 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,369 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,370 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,371 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,372 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,372 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,373 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,382 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,384 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,385 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,385 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,386 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,387 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,388 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,389 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,397 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,398 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,399 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,400 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,401 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,402 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,403 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,403 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,404 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,405 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,409 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,411 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,412 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,414 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,415 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,417 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,418 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,419 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,421 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,421 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:03:07,422 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:03:07,424 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:09:09,313 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2025-12-30 12:09:09,314 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2025-12-30 12:11:17,839 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 50 despachos
+2025-12-30 12:11:17,840 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,841 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,843 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,843 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,845 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,846 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,847 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,848 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,849 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,850 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,853 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,854 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,857 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,858 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,859 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,860 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,861 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,862 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,863 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,864 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,865 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,866 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,867 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,868 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,869 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,870 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,872 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,874 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,875 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,877 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,879 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,880 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,881 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,882 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,882 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,883 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,884 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,885 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,886 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,887 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,888 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,888 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,889 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,890 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,891 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,892 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,893 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,895 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,896 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,897 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,898 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,900 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,901 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,902 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,903 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,904 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,905 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,906 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,908 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,908 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,909 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,911 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,912 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,914 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,916 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,918 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,919 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,920 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,921 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,922 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,924 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,925 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,926 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,927 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,928 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,930 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,931 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,932 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,933 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,934 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,935 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,936 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,936 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,937 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,938 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,939 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,940 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,941 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,943 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,943 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,944 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,945 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,946 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,947 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,947 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,948 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,949 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,950 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2025-12-30 12:11:17,951 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2025-12-30 12:11:17,952 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 08:59:48,816 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-05 08:59:48,820 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-05 09:00:27,564 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 50 despachos
+2026-01-05 09:00:27,566 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,568 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,569 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,572 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,574 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,577 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,581 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,583 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,584 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,585 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,587 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,589 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,590 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,594 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,596 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,598 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,599 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,602 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,604 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,606 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,609 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,610 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,612 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,613 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,616 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,619 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,620 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,622 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,623 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,625 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,627 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,629 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,631 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,632 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,637 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,639 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,640 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,643 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,650 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,653 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:00:27,655 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:00:27,656 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,110 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,112 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,116 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,119 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,122 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,125 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,129 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,134 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,137 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,141 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,144 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,145 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,148 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,150 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,154 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,158 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,161 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,163 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,166 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,167 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,169 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,171 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,173 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,175 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,178 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,179 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,180 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,183 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,185 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,188 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,190 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,193 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,195 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,198 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,201 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,202 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,203 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,206 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,209 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,210 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,211 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,213 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,216 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,218 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,220 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,221 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,223 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,224 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,225 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,226 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,227 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,228 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,229 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,230 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,232 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,233 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:39,234 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:39,236 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:02:48,493 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-05 09:02:48,494 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-05 09:03:25,953 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 50 despachos
+2026-01-05 09:03:25,955 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,955 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,956 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,957 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,961 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,962 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,967 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,970 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,971 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,974 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,976 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,977 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,978 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,980 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,981 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,982 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,984 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,985 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,986 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,987 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,990 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,992 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,993 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,994 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,995 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,996 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:25,997 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:25,999 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,000 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,001 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,002 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,003 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,004 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,006 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,008 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,009 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,012 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,014 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,016 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,018 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,019 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,020 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,022 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,023 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,025 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,026 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,028 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,031 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,034 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,035 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,036 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,037 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,038 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,039 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,040 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,041 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,042 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,042 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,043 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,044 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,045 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,046 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,048 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,050 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,051 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,052 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,055 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,057 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,058 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,059 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,060 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,061 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,061 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,062 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,063 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,064 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,065 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,066 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,066 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,067 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,068 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,072 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,074 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,075 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,076 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,077 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,078 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,079 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,080 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,081 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,082 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,083 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,084 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,085 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,086 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,086 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,087 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,089 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:03:26,091 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:03:26,092 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 09:08:45,855 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-05 09:08:45,856 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-05 09:09:10,028 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 50 despachos
+2026-01-05 09:09:10,029 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-05 09:09:10,030 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-05 12:43:14,588 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-05 12:43:14,588 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-05 12:43:22,399 - ERROR - [GetOfficesService] Error al procesar Excel: DPY-6005: cannot connect to database (CONNECTION_ID=DMezFcIbrQSVNFk1GPC48A==).
+Multiple exceptions: [Errno 111] Connect call failed ('::1', 5678, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5678)
+Traceback (most recent call last):
+  File "src/oracledb/impl/thin/connection.pyx", line 636, in oracledb.thin_impl.AsyncThinConnImpl._connect_with_address
+  File "src/oracledb/impl/thin/protocol.pyx", line 583, in _connect_phase_one
+  File "src/oracledb/impl/thin/protocol.pyx", line 715, in _connect_tcp
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 1140, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('::1', 5678, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5678)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/app/application/service/GetOfficesService.py", line 66, in insert_offices
+    conn = await self.db.acquire_connection()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/app/app/infrastucture/database/OracleDB.py", line 42, in acquire_connection
+    conn = await self._pool.acquire()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/oracledb/connection.py", line 1538, in _connect
+    impl = await pool_impl.acquire(params_impl)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/oracledb/impl/thin/pool.pyx", line 804, in acquire
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "src/oracledb/impl/thin/pool.pyx", line 656, in _acquire_helper
+  File "src/oracledb/impl/thin/pool.pyx", line 662, in oracledb.thin_impl.AsyncThinPoolImpl._acquire_helper
+  File "src/oracledb/impl/thin/pool.pyx", line 658, in oracledb.thin_impl.AsyncThinPoolImpl._acquire_helper
+  File "/usr/local/lib/python3.12/asyncio/locks.py", line 294, in wait_for
+    result = predicate()
+             ^^^^^^^^^^^
+  File "src/oracledb/impl/thin/pool.pyx", line 898, in oracledb.thin_impl.PooledConnRequest.fulfill
+  File "src/oracledb/impl/thin/pool.pyx", line 760, in oracledb.thin_impl.AsyncThinPoolImpl._process_request
+  File "src/oracledb/impl/thin/pool.pyx", line 731, in _create_conn_impl
+  File "src/oracledb/impl/thin/connection.pyx", line 947, in connect
+  File "src/oracledb/impl/thin/connection.pyx", line 943, in oracledb.thin_impl.AsyncThinConnImpl.connect
+  File "src/oracledb/impl/thin/connection.pyx", line 695, in _connect_with_params
+  File "src/oracledb/impl/thin/connection.pyx", line 675, in _connect_with_description
+  File "src/oracledb/impl/thin/connection.pyx", line 645, in _connect_with_address
+  File "/usr/local/lib/python3.12/site-packages/oracledb/errors.py", line 195, in _raise_err
+    raise error.exc_type(error) from cause
+oracledb.exceptions.OperationalError: DPY-6005: cannot connect to database (CONNECTION_ID=DMezFcIbrQSVNFk1GPC48A==).
+Multiple exceptions: [Errno 111] Connect call failed ('::1', 5678, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5678)
+2026-01-05 12:43:22,402 - ERROR - [OfficesLandRestitution] Error al publicar DPY-6005: cannot connect to database (CONNECTION_ID=DMezFcIbrQSVNFk1GPC48A==).
+Multiple exceptions: [Errno 111] Connect call failed ('::1', 5678, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5678)
+Traceback (most recent call last):
+  File "src/oracledb/impl/thin/connection.pyx", line 636, in oracledb.thin_impl.AsyncThinConnImpl._connect_with_address
+  File "src/oracledb/impl/thin/protocol.pyx", line 583, in _connect_phase_one
+  File "src/oracledb/impl/thin/protocol.pyx", line 715, in _connect_tcp
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 1140, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('::1', 5678, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5678)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/app/application/service/OfficesLandRestitution.py", line 35, in publish_offices
+    await self.getData.insert_offices()
+  File "/home/app/app/application/service/GetOfficesService.py", line 66, in insert_offices
+    conn = await self.db.acquire_connection()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/app/app/infrastucture/database/OracleDB.py", line 42, in acquire_connection
+    conn = await self._pool.acquire()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/oracledb/connection.py", line 1538, in _connect
+    impl = await pool_impl.acquire(params_impl)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/oracledb/impl/thin/pool.pyx", line 804, in acquire
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "src/oracledb/impl/thin/pool.pyx", line 656, in _acquire_helper
+  File "src/oracledb/impl/thin/pool.pyx", line 662, in oracledb.thin_impl.AsyncThinPoolImpl._acquire_helper
+  File "src/oracledb/impl/thin/pool.pyx", line 658, in oracledb.thin_impl.AsyncThinPoolImpl._acquire_helper
+  File "/usr/local/lib/python3.12/asyncio/locks.py", line 294, in wait_for
+    result = predicate()
+             ^^^^^^^^^^^
+  File "src/oracledb/impl/thin/pool.pyx", line 898, in oracledb.thin_impl.PooledConnRequest.fulfill
+  File "src/oracledb/impl/thin/pool.pyx", line 760, in oracledb.thin_impl.AsyncThinPoolImpl._process_request
+  File "src/oracledb/impl/thin/pool.pyx", line 731, in _create_conn_impl
+  File "src/oracledb/impl/thin/connection.pyx", line 947, in connect
+  File "src/oracledb/impl/thin/connection.pyx", line 943, in oracledb.thin_impl.AsyncThinConnImpl.connect
+  File "src/oracledb/impl/thin/connection.pyx", line 695, in _connect_with_params
+  File "src/oracledb/impl/thin/connection.pyx", line 675, in _connect_with_description
+  File "src/oracledb/impl/thin/connection.pyx", line 645, in _connect_with_address
+  File "/usr/local/lib/python3.12/site-packages/oracledb/errors.py", line 195, in _raise_err
+    raise error.exc_type(error) from cause
+oracledb.exceptions.OperationalError: DPY-6005: cannot connect to database (CONNECTION_ID=DMezFcIbrQSVNFk1GPC48A==).
+Multiple exceptions: [Errno 111] Connect call failed ('::1', 5678, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5678)
+2026-01-19 11:44:02,280 - INFO - [robust_connection] Connection to amqp://admin:******@localhost:5672// closed. Reconnecting after 5 seconds.
+2026-01-19 11:44:02,283 - ERROR - [RabbitMQProducer] ❌ Error conectando al Producer: Multiple exceptions: [Errno 111] Connect call failed ('::1', 5672, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5672)
+2026-01-19 11:44:02,284 - ERROR - [main] ❌ Error durante la ejecución principal
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/aiormq/connection.py", line 457, in connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 1140, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('::1', 5672, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5672)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/main.py", line 52, in lifespan
+    await producer.connect()
+  File "/home/app/app/infrastucture/rabbitmq/RabbitMQProducer.py", line 38, in connect
+    raise error
+  File "/home/app/app/infrastucture/rabbitmq/RabbitMQProducer.py", line 23, in connect
+    self.connection = await aio_pika.connect_robust(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/robust_connection.py", line 334, in connect_robust
+    await connection.connect(timeout=timeout)
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/robust_connection.py", line 180, in connect
+    await self.__fail_fast_future
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/robust_connection.py", line 135, in __connection_factory
+    await Connection.connect(self, self.__connect_timeout)
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/connection.py", line 125, in connect
+    self.transport = await UnderlayConnection.connect(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/abc.py", line 679, in connect
+    connection = await cls.make_connection(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/abc.py", line 667, in make_connection
+    connection: aiormq.abc.AbstractConnection = await asyncio.wait_for(
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiormq/connection.py", line 920, in connect
+    await connection.connect(client_properties or {})
+  File "/usr/local/lib/python3.12/site-packages/aiormq/base.py", line 164, in wrap
+    return await self.create_task(func(self, *args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiormq/abc.py", line 44, in __inner
+    return await self.task
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiormq/connection.py", line 464, in connect
+    raise AMQPConnectionError(*e.args) from e
+aiormq.exceptions.AMQPConnectionError: Multiple exceptions: [Errno 111] Connect call failed ('::1', 5672, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5672)
+2026-01-19 11:51:29,732 - INFO - [robust_connection] Connection to amqp://admin:******@localhost:5672// closed. Reconnecting after 5 seconds.
+2026-01-19 11:51:29,732 - ERROR - [RabbitMQProducer] ❌ Error conectando al Producer: Multiple exceptions: [Errno 111] Connect call failed ('::1', 5672, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5672)
+2026-01-19 11:51:29,732 - ERROR - [main] ❌ Error durante la ejecución principal
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/aiormq/connection.py", line 457, in connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 1140, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 111] Connect call failed ('::1', 5672, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5672)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/main.py", line 52, in lifespan
+    await producer.connect()
+  File "/home/app/app/infrastucture/rabbitmq/RabbitMQProducer.py", line 38, in connect
+    raise error
+  File "/home/app/app/infrastucture/rabbitmq/RabbitMQProducer.py", line 23, in connect
+    self.connection = await aio_pika.connect_robust(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/robust_connection.py", line 334, in connect_robust
+    await connection.connect(timeout=timeout)
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/robust_connection.py", line 180, in connect
+    await self.__fail_fast_future
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/robust_connection.py", line 135, in __connection_factory
+    await Connection.connect(self, self.__connect_timeout)
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/connection.py", line 125, in connect
+    self.transport = await UnderlayConnection.connect(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/abc.py", line 679, in connect
+    connection = await cls.make_connection(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/abc.py", line 667, in make_connection
+    connection: aiormq.abc.AbstractConnection = await asyncio.wait_for(
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiormq/connection.py", line 920, in connect
+    await connection.connect(client_properties or {})
+  File "/usr/local/lib/python3.12/site-packages/aiormq/base.py", line 164, in wrap
+    return await self.create_task(func(self, *args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiormq/abc.py", line 44, in __inner
+    return await self.task
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiormq/connection.py", line 464, in connect
+    raise AMQPConnectionError(*e.args) from e
+aiormq.exceptions.AMQPConnectionError: Multiple exceptions: [Errno 111] Connect call failed ('::1', 5672, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5672)
+2026-01-19 11:53:55,141 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 11:53:55,142 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 11:54:31,847 - ERROR - [KeysLandRestitutionRepository] ❌ Error al comprobar la existencia del estado: ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2026-01-19 11:54:31,929 - ERROR - [OfficesLandRestitution] ❌ Error : ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2026-01-19 11:54:31,929 - ERROR - [OfficesLandRestitution] Error al publicar ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+Traceback (most recent call last):
+  File "/home/app/app/application/service/OfficesLandRestitution.py", line 36, in publish_offices
+    offices= await self.getAllOffices()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/app/app/application/service/OfficesLandRestitution.py", line 28, in getAllOffices
+    raise e
+  File "/home/app/app/application/service/OfficesLandRestitution.py", line 22, in getAllOffices
+    raw_offices =  await self.getData.get_offices()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/app/app/application/service/GetOfficesService.py", line 26, in get_offices
+    raw_keys = await self.repository.get_keys_offices( conn)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/app/app/infrastucture/database/repositories/KeysLandRestitutionRepository.py", line 41, in get_keys_offices
+    await cursor.execute(query)
+  File "/usr/local/lib/python3.12/site-packages/oracledb/cursor.py", line 964, in execute
+    await self._impl.execute(self)
+  File "src/oracledb/impl/thin/cursor.pyx", line 283, in execute
+  File "src/oracledb/impl/thin/protocol.pyx", line 811, in _process_single_message
+  File "src/oracledb/impl/thin/protocol.pyx", line 812, in oracledb.thin_impl.BaseAsyncProtocol._process_single_message
+  File "src/oracledb/impl/thin/protocol.pyx", line 789, in _process_message
+  File "src/oracledb/impl/thin/messages.pyx", line 74, in oracledb.thin_impl.Message._check_and_raise_exception
+oracledb.exceptions.DatabaseError: ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2026-01-19 11:55:35,417 - INFO - [RabbitMQProducer] 🔌 Conexión con RabbitMQ cerrada
+2026-01-19 11:57:19,089 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 11:57:19,090 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 11:57:39,155 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 11:57:39,158 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 11:57:39,160 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 11:59:38,142 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 11:59:38,143 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 12:00:08,302 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 12:00:08,306 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 12:00:08,308 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 12:00:59,462 - INFO - [RabbitMQProducer] 🔌 Conexión con RabbitMQ cerrada
+2026-01-19 12:07:23,742 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 12:07:23,742 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 12:07:25,449 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 12:07:25,452 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 12:07:25,454 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 12:12:39,750 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 12:12:39,751 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 12:13:06,884 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 12:13:06,887 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 12:13:06,889 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 12:16:20,281 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 12:16:20,282 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 12:16:30,134 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 12:16:30,137 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 12:16:30,140 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 14:25:34,348 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 14:25:34,350 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 14:25:42,430 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 14:25:42,433 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 14:25:42,435 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 14:26:15,448 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 14:26:15,449 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 14:26:15,450 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 14:27:59,071 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 14:27:59,071 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 14:31:28,337 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 14:31:28,338 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 14:31:36,121 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 14:31:36,124 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 14:31:36,126 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 14:34:47,975 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 14:34:47,976 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 14:34:55,418 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 14:34:55,422 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 14:34:55,425 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 14:59:20,891 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 14:59:20,893 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 14:59:54,403 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 14:59:54,405 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 14:59:54,406 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts

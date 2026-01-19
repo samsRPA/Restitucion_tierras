@@ -1,0 +1,453 @@
+2026-01-07 16:19:35,282 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-07 16:19:35,282 - INFO - [RabbitMQConsumer] 📡 Conexión no establecida. Conectando...
+2026-01-07 16:19:35,299 - INFO - [RabbitMQConsumer] ✅ Conectado a RabbitMQ - Consumer
+2026-01-07 16:19:35,301 - INFO - [RabbitMQConsumer] 🎧 Esperando mensajes...
+2026-01-07 16:19:38,679 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:39,033 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:39,034 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:39,491 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | APARTADO (ANTIOQUIA)
+2026-01-07 16:19:39,492 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:39,492 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:39,492 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 27374) NO tiene edictos 
+2026-01-07 16:19:39,571 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:39,573 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:39,573 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:39,574 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:39,921 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | APARTADO (ANTIOQUIA)
+2026-01-07 16:19:39,921 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:19:39,922 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:39,922 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 27384) NO tiene edictos 
+2026-01-07 16:19:40,002 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:40,004 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:40,004 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:40,004 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:40,373 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | APARTADO (ANTIOQUIA)
+2026-01-07 16:19:40,374 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:40,374 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:40,374 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 30483) NO tiene edictos 
+2026-01-07 16:19:40,454 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:40,455 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:40,456 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:40,456 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:40,813 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | BARRANCABERMEJA (SANTANDER)
+2026-01-07 16:19:40,813 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:40,814 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:40,814 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 24994) NO tiene edictos 
+2026-01-07 16:19:40,931 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:40,934 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:40,934 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:40,935 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:41,281 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado | BOGOTA
+2026-01-07 16:19:41,281 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado
+2026-01-07 16:19:41,281 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:41,281 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado (id 30323) NO tiene edictos 
+2026-01-07 16:19:41,363 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:41,365 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:41,365 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:41,366 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:41,724 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | BOGOTA
+2026-01-07 16:19:41,724 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:41,724 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:41,725 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 29619) NO tiene edictos 
+2026-01-07 16:19:41,803 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:41,805 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:41,805 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:41,806 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:42,199 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Tribunal Superior 000 Especializado en Restitución de tierras | BOGOTA
+2026-01-07 16:19:42,199 - INFO - [GetDataService] 📌 0 edictos encontrados → Tribunal Superior 000 Especializado en Restitución de tierras
+2026-01-07 16:19:42,200 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:42,200 - INFO - [LandRestScrapperEdicts] 📭 El despacho Tribunal Superior 000 Especializado en Restitución de tierras (id 27973) NO tiene edictos 
+2026-01-07 16:19:42,278 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:42,280 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:42,280 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:42,281 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:42,688 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | BUCARAMANGA
+2026-01-07 16:19:42,688 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:42,689 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:42,689 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 26935) NO tiene edictos 
+2026-01-07 16:19:42,782 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:42,784 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:42,784 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:42,785 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:43,314 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | CALI (VALLE)
+2026-01-07 16:19:43,314 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:43,314 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:43,314 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 28269) NO tiene edictos 
+2026-01-07 16:19:43,449 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:43,451 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:43,451 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:43,452 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:44,404 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | CALI (VALLE)
+2026-01-07 16:19:44,404 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:19:44,405 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:44,405 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 29263) NO tiene edictos 
+2026-01-07 16:19:44,500 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:44,501 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:44,501 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:44,502 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:44,899 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 003 Especializado en Restitución de tierras | CALI (VALLE)
+2026-01-07 16:19:44,899 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 003 Especializado en Restitución de tierras
+2026-01-07 16:19:44,900 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:44,900 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 003 Especializado en Restitución de tierras (id 28565) NO tiene edictos 
+2026-01-07 16:19:44,978 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:44,980 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:44,981 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:44,981 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:45,351 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Tribunal Superior 000 Especializado en Restitución de tierras | CALI (VALLE)
+2026-01-07 16:19:45,351 - INFO - [GetDataService] 📌 0 edictos encontrados → Tribunal Superior 000 Especializado en Restitución de tierras
+2026-01-07 16:19:45,352 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:45,352 - INFO - [LandRestScrapperEdicts] 📭 El despacho Tribunal Superior 000 Especializado en Restitución de tierras (id 27122) NO tiene edictos 
+2026-01-07 16:19:45,430 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:45,432 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:45,432 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:45,432 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:45,816 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Tribunal Superior 000 Sala Mixta | CALI (VALLE)
+2026-01-07 16:19:45,817 - INFO - [GetDataService] 📌 0 edictos encontrados → Tribunal Superior 000 Sala Mixta
+2026-01-07 16:19:45,817 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:45,817 - INFO - [LandRestScrapperEdicts] 📭 El despacho Tribunal Superior 000 Sala Mixta (id 27122) NO tiene edictos 
+2026-01-07 16:19:45,901 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:45,903 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:45,903 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:45,903 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:46,243 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Tribunal Superior 000 Sala Plena | CALI (VALLE)
+2026-01-07 16:19:46,243 - INFO - [GetDataService] 📌 0 edictos encontrados → Tribunal Superior 000 Sala Plena
+2026-01-07 16:19:46,244 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:46,244 - INFO - [LandRestScrapperEdicts] 📭 El despacho Tribunal Superior 000 Sala Plena (id 27122) NO tiene edictos 
+2026-01-07 16:19:46,321 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:46,323 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:46,323 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:46,323 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:46,690 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Tribunal Superior 000 Especializado en Restitución de tierras | CARTAGENA (BOLIVAR)
+2026-01-07 16:19:46,691 - INFO - [GetDataService] 📌 0 edictos encontrados → Tribunal Superior 000 Especializado en Restitución de tierras
+2026-01-07 16:19:46,691 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:46,691 - INFO - [LandRestScrapperEdicts] 📭 El despacho Tribunal Superior 000 Especializado en Restitución de tierras (id 24996) NO tiene edictos 
+2026-01-07 16:19:46,779 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:46,781 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:46,781 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:46,782 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:47,143 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | CUCUTA (NORTE SANTANDER)
+2026-01-07 16:19:47,143 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:47,144 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:47,144 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 27783) NO tiene edictos 
+2026-01-07 16:19:47,227 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:47,230 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:47,230 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:47,231 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:48,271 - INFO - [GetDataService] 🌐 [HTTP 400] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | CUCUTA (NORTE SANTANDER)
+2026-01-07 16:19:48,271 - ERROR - [GetDataService] ⚠️ HTTP 400 → {"countRecords":null,"success":false,"message":"La respuesta del Indice electrónico presenta errores. Código de estado: Conflict. Contenido del error: {\"name\":\"MoleculerClientError\",\"message\":{\"error\":{\"driver\":true,\"name\":\"MongoError\",\"index\":0,\"code\":11000,\"keyPattern\":{\"tracker\":1},\"keyValue\":{\"tracker\":\"54001312100220250014700270140610148\"}}},\"code\":409}","data":null}
+2026-01-07 16:19:48,272 - INFO - [LandRestScrapperEdicts]   Edictos: None
+2026-01-07 16:19:48,272 - WARNING - [LandRestScrapperEdicts] ⚠️ Error consultando Edictos del despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 26869)
+2026-01-07 16:19:48,351 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:48,353 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:48,354 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:48,355 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:48,756 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Tribunal Superior 000 Especializado en Restitución de tierras | CUCUTA (NORTE SANTANDER)
+2026-01-07 16:19:48,756 - INFO - [GetDataService] 📌 0 edictos encontrados → Tribunal Superior 000 Especializado en Restitución de tierras
+2026-01-07 16:19:48,757 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:48,757 - INFO - [LandRestScrapperEdicts] 📭 El despacho Tribunal Superior 000 Especializado en Restitución de tierras (id 25028) NO tiene edictos 
+2026-01-07 16:19:48,837 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:48,840 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:48,840 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:48,841 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:49,110 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | EL CARMEN DE BOLIVAR (BOLIVAR)
+2026-01-07 16:19:49,111 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:49,111 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:49,112 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 26909) NO tiene edictos 
+2026-01-07 16:19:49,270 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:49,272 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:49,273 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:49,274 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:49,902 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | EL CARMEN DE BOLIVAR (BOLIVAR)
+2026-01-07 16:19:49,902 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:19:49,903 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:49,903 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 27702) NO tiene edictos 
+2026-01-07 16:19:50,012 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:50,015 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:50,015 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:50,016 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:51,082 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 003 Especializado en Restitución de tierras | EL CARMEN DE BOLIVAR (BOLIVAR)
+2026-01-07 16:19:51,082 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 003 Especializado en Restitución de tierras
+2026-01-07 16:19:51,083 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:51,083 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 003 Especializado en Restitución de tierras (id 28479) NO tiene edictos 
+2026-01-07 16:19:51,163 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:51,165 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:51,166 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:51,166 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:51,541 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | FLORENCIA (CAQUETA)
+2026-01-07 16:19:51,541 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:51,542 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:51,542 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 29567) NO tiene edictos 
+2026-01-07 16:19:51,620 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:51,621 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:51,621 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:51,622 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:51,986 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 003 Especializado en Restitución de tierras | IBAGUE (TOLIMA)
+2026-01-07 16:19:51,986 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 003 Especializado en Restitución de tierras
+2026-01-07 16:19:51,986 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:51,987 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 003 Especializado en Restitución de tierras (id 30043) NO tiene edictos 
+2026-01-07 16:19:52,102 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:52,104 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:52,104 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:52,105 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:52,472 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | IBAGUE (TOLIMA)
+2026-01-07 16:19:52,472 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:52,472 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:52,472 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 26987) NO tiene edictos 
+2026-01-07 16:19:52,557 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:52,559 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:52,559 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:52,560 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:52,928 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | IBAGUE (TOLIMA)
+2026-01-07 16:19:52,928 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:19:52,929 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:52,929 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 26988) NO tiene edictos 
+2026-01-07 16:19:53,009 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:53,011 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:53,011 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:53,012 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:53,354 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 004 Especializado en Restitución de tierras | MOCOA (PUTUMAYO)
+2026-01-07 16:19:53,355 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 004 Especializado en Restitución de tierras
+2026-01-07 16:19:53,355 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:53,355 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 004 Especializado en Restitución de tierras (id 30450) NO tiene edictos 
+2026-01-07 16:19:53,435 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:53,437 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:53,437 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:53,438 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:22:56,865 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | MOCOA (PUTUMAYO)
+2026-01-07 16:22:56,866 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:22:56,867 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:22:56,867 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 24966) NO tiene edictos 
+2026-01-07 16:22:56,945 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:22:56,946 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:22:56,947 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:22:56,947 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:54,296 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | MOCOA (PUTUMAYO)
+2026-01-07 16:19:54,297 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:19:54,297 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:54,297 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 29574) NO tiene edictos 
+2026-01-07 16:19:54,377 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:54,379 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:54,379 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:54,380 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:54,734 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 003 Especializado en Restitución de tierras | MOCOA (PUTUMAYO)
+2026-01-07 16:19:54,734 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 003 Especializado en Restitución de tierras
+2026-01-07 16:19:54,735 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:54,735 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 003 Especializado en Restitución de tierras (id 30258) NO tiene edictos 
+2026-01-07 16:19:54,816 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:54,817 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:54,818 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:54,818 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:55,155 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | MONTERIA (CORDOBA)
+2026-01-07 16:19:55,155 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:55,156 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:55,156 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 26519) NO tiene edictos 
+2026-01-07 16:19:55,273 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:55,274 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:55,275 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:55,275 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:55,696 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | MONTERIA (CORDOBA)
+2026-01-07 16:19:55,697 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:19:55,697 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:55,697 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 26873) NO tiene edictos 
+2026-01-07 16:19:55,776 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:55,777 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:55,777 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:55,778 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:56,134 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 003 Especializado en Restitución de tierras | MONTERIA (CORDOBA)
+2026-01-07 16:19:56,134 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 003 Especializado en Restitución de tierras
+2026-01-07 16:19:56,134 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:56,134 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 003 Especializado en Restitución de tierras (id 28475) NO tiene edictos 
+2026-01-07 16:19:56,212 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:56,214 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:56,214 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:56,215 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:56,577 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | PASTO (NARIÑO)
+2026-01-07 16:19:56,578 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:56,578 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:56,578 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 26964) NO tiene edictos 
+2026-01-07 16:19:56,655 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:56,657 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:56,657 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:56,658 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:57,007 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | PASTO (NARIÑO)
+2026-01-07 16:19:57,007 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:19:57,007 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:57,008 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 30195) NO tiene edictos 
+2026-01-07 16:19:57,101 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:57,102 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:57,103 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:57,103 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:57,466 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 003 Especializado en Restitución de tierras | PASTO (NARIÑO)
+2026-01-07 16:19:57,466 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 003 Especializado en Restitución de tierras
+2026-01-07 16:19:57,466 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:57,467 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 003 Especializado en Restitución de tierras (id 28607) NO tiene edictos 
+2026-01-07 16:19:57,545 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:57,546 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:57,547 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:57,547 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:57,934 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | PEREIRA (RISARALDA)
+2026-01-07 16:19:57,934 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:57,934 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:57,935 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 28605) NO tiene edictos 
+2026-01-07 16:19:58,025 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:58,026 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:58,026 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:58,027 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:58,368 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | QUIBDO (CHOCO)
+2026-01-07 16:19:58,369 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:58,369 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:58,369 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 27649) NO tiene edictos 
+2026-01-07 16:19:58,447 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:58,448 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:58,449 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:58,449 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:58,793 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | QUIBDO (CHOCO)
+2026-01-07 16:19:58,793 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:58,794 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:58,794 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 30492) NO tiene edictos 
+2026-01-07 16:23:01,888 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:23:01,893 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:23:01,894 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:23:01,894 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:59,227 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | QUIBDO (CHOCO)
+2026-01-07 16:19:59,227 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:19:59,227 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:59,228 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 32562) NO tiene edictos 
+2026-01-07 16:19:59,315 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:59,316 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:59,317 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:59,317 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:19:59,674 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | SANTA MARTA (MAGDALENA)
+2026-01-07 16:19:59,675 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:19:59,675 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:19:59,675 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 24948) NO tiene edictos 
+2026-01-07 16:19:59,758 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:19:59,760 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:19:59,760 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:19:59,761 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:20:00,288 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | SANTA MARTA (MAGDALENA)
+2026-01-07 16:20:00,289 - INFO - [GetDataService] 📌 4 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:20:00,289 - INFO - [LandRestScrapperEdicts]   Edictos: [{'codProceso': '47001312100220180008900', 'predio': 'LA MARUJA', 'municipioPredio': 'SEVILLANO (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': '2D4320C61378CE3B5498CF1ED9EDEA35CC07916A3DCFA30A97EEBED8DB58BA4C', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b19', 'tracker': '47001312100220180008900270140530199'}}, {'codProceso': '47001312100220250003500', 'predio': 'Parcela 20 (Tranquilandía) El Oasis', 'municipioPredio': 'ARACATACA (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': 'D40D48174E11C43450E512728CA6AC140E6ED42911A819C939A8B37317C91CDD', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1a', 'tracker': '47001312100220250003500270140530029'}}, {'codProceso': '47001312100220250003700', 'predio': 'Hacienda Florencia-parcela', 'municipioPredio': 'SAN ÁNGEL (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': '9C76ADFB307D58BF95C60640EB3615D36904CEBA8CB1C33479112C4BD5E31BFA', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1b', 'tracker': '47001312100220250003700270140530036'}}, {'codProceso': '47001312100220250003900', 'predio': 'EL ENGAÑO', 'municipioPredio': 'CHIVOLO (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': '931CCB269A7CE67156AE82E851880D70934A181A12016AF1FA8D925DA18774AD', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1c', 'tracker': '47001312100220250003900270140530019'}}]
+2026-01-07 16:20:00,289 - INFO - [LandRestScrapperEdicts] 📌 Hay 4 edictos para el despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 26893)
+2026-01-07 16:20:00,291 - WARNING - [UploadDataService] ⚠️ Fecha inválida recibida: 2025-12-12 00:00:00
+2026-01-07 16:20:00,291 - WARNING - [UploadDataService] ⚠️ Fecha inválida recibida: 2025-12-12 00:00:00
+2026-01-07 16:20:00,291 - WARNING - [UploadDataService] ⚠️ Fecha inválida recibida: 2025-12-12 00:00:00
+2026-01-07 16:20:00,291 - WARNING - [UploadDataService] ⚠️ Fecha inválida recibida: 2025-12-12 00:00:00
+2026-01-07 16:20:00,371 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:20:00,372 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:20:00,372 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:20:00,373 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:20:00,718 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 003 Especializado en Restitución de tierras | SANTA MARTA (MAGDALENA)
+2026-01-07 16:20:00,718 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 003 Especializado en Restitución de tierras
+2026-01-07 16:20:00,719 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:20:00,719 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 003 Especializado en Restitución de tierras (id 28638) NO tiene edictos 
+2026-01-07 16:20:00,800 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:20:00,802 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:20:00,802 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:20:00,802 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:20:01,143 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | SINCELEJO (SUCRE)
+2026-01-07 16:20:01,143 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:20:01,144 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:20:01,144 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 26483) NO tiene edictos 
+2026-01-07 16:20:01,227 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:20:01,229 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:20:01,229 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:20:01,230 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:20:01,601 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | SINCELEJO (SUCRE)
+2026-01-07 16:20:01,601 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:20:01,602 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:20:01,602 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 26484) NO tiene edictos 
+2026-01-07 16:20:01,680 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:20:01,682 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:20:01,683 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:20:01,684 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:20:02,050 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | VALLEDUPAR (CESAR)
+2026-01-07 16:20:02,051 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:20:02,051 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:20:02,051 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 29352) NO tiene edictos 
+2026-01-07 16:20:02,137 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:20:02,138 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:20:02,139 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:20:02,139 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:20:02,503 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | VALLEDUPAR (CESAR)
+2026-01-07 16:20:02,503 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:20:02,504 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:20:02,504 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 25000) NO tiene edictos 
+2026-01-07 16:20:02,601 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:20:02,603 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:20:02,603 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:20:02,604 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:20:02,960 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 003 Especializado en Restitución de tierras | VALLEDUPAR (CESAR)
+2026-01-07 16:20:02,961 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 003 Especializado en Restitución de tierras
+2026-01-07 16:20:02,961 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:20:02,961 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 003 Especializado en Restitución de tierras (id 26906) NO tiene edictos 
+2026-01-07 16:20:03,040 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:20:03,042 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:20:03,043 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:20:03,043 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:20:03,417 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 001 Especializado en Restitución de tierras | VILLAVICENCIO (META)
+2026-01-07 16:20:03,417 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 001 Especializado en Restitución de tierras
+2026-01-07 16:20:03,418 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:20:03,418 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 001 Especializado en Restitución de tierras (id 26903) NO tiene edictos 
+2026-01-07 16:20:03,499 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:20:03,501 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:20:03,502 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:20:03,503 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:23:06,884 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | VILLAVICENCIO (META)
+2026-01-07 16:23:06,885 - INFO - [GetDataService] 📌 0 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:23:06,885 - INFO - [LandRestScrapperEdicts]   Edictos: []
+2026-01-07 16:23:06,885 - INFO - [LandRestScrapperEdicts] 📭 El despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 27016) NO tiene edictos 
+2026-01-07 16:23:06,966 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-07 16:23:53,372 - INFO - [RabbitMQConsumer] 👋 Interrupción manual detectada.
+2026-01-07 16:23:53,375 - INFO - [RabbitMQConsumer] 🔌 Conexión a RabbitMQ cerrada.
+2026-01-07 16:23:53,376 - ERROR - [main] Interrupción manual del programa.
+Traceback (most recent call last):
+  File "/home/samuel_monsalve/proyects/Restitucion_tierras/scrapper_land_rest_edicts/main.py", line 68, in <module>
+    asyncio.run(main())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+2026-01-07 16:23:55,528 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-07 16:23:55,528 - INFO - [RabbitMQConsumer] 📡 Conexión no establecida. Conectando...
+2026-01-07 16:23:55,544 - INFO - [RabbitMQConsumer] ✅ Conectado a RabbitMQ - Consumer
+2026-01-07 16:23:55,545 - INFO - [RabbitMQConsumer] 🎧 Esperando mensajes...
+2026-01-07 16:24:04,967 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-07 16:24:05,306 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-07 16:24:05,307 - INFO - [LandRestScrapperEdicts] current_year: 2026
+2026-01-07 16:24:05,839 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta Edictos → Juzgado Circuito 002 Especializado en Restitución de tierras | SANTA MARTA (MAGDALENA)
+2026-01-07 16:24:05,839 - INFO - [GetDataService] 📌 4 edictos encontrados → Juzgado Circuito 002 Especializado en Restitución de tierras
+2026-01-07 16:24:05,839 - INFO - [LandRestScrapperEdicts]   Edictos: [{'codProceso': '47001312100220180008900', 'predio': 'LA MARUJA', 'municipioPredio': 'SEVILLANO (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': '2D4320C61378CE3B5498CF1ED9EDEA35CC07916A3DCFA30A97EEBED8DB58BA4C', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b19', 'tracker': '47001312100220180008900270140530199'}}, {'codProceso': '47001312100220250003500', 'predio': 'Parcela 20 (Tranquilandía) El Oasis', 'municipioPredio': 'ARACATACA (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': 'D40D48174E11C43450E512728CA6AC140E6ED42911A819C939A8B37317C91CDD', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1a', 'tracker': '47001312100220250003500270140530029'}}, {'codProceso': '47001312100220250003700', 'predio': 'Hacienda Florencia-parcela', 'municipioPredio': 'SAN ÁNGEL (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': '9C76ADFB307D58BF95C60640EB3615D36904CEBA8CB1C33479112C4BD5E31BFA', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1b', 'tracker': '47001312100220250003700270140530036'}}, {'codProceso': '47001312100220250003900', 'predio': 'EL ENGAÑO', 'municipioPredio': 'CHIVOLO (MAGDALENA)', 'fechaInicio': '2025-12-12 00:00:00', 'fechaFin': '2026-01-26 00:00:00', 'hash': '931CCB269A7CE67156AE82E851880D70934A181A12016AF1FA8D925DA18774AD', 'codigo': '00000109', 'linkDoc': {'nombre': '', 'url': 'https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1c', 'tracker': '47001312100220250003900270140530019'}}]
+2026-01-07 16:24:05,840 - INFO - [LandRestScrapperEdicts] 📌 Hay 4 edictos para el despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 26893)
+2026-01-07 16:24:05,926 - INFO - [UploadDataService]   oracleId: 2066774
+2026-01-07 16:24:05,927 - INFO - [UploadDataService]  filename: 2025_1212_Samai_4701_26893_19_2066774_0_Juzgado Circuito 002 Especializado en Restitución de tierras_EDICTO
+2026-01-07 16:24:05,927 - INFO - [UploadDataService]   awsName: SCAN_20251212_Samai_2066774.pdf
+2026-01-07 16:24:05,927 - INFO - [UploadDataService] 🌐 Descargando edicto desde: https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b19
+2026-01-07 16:24:06,279 - WARNING - [UploadDataService] ⚠️ Tipo de archivo no soportado: text/html
+2026-01-07 16:24:06,280 - WARNING - [UploadDataService] ⚠️ No se pudo generar el PDF del edicto
+2026-01-07 16:24:06,362 - INFO - [UploadDataService]   oracleId: 2066775
+2026-01-07 16:24:06,363 - INFO - [UploadDataService]  filename: 2025_1212_Samai_4701_26893_19_2066775_0_Juzgado Circuito 002 Especializado en Restitución de tierras_EDICTO
+2026-01-07 16:24:06,363 - INFO - [UploadDataService]   awsName: SCAN_20251212_Samai_2066775.pdf
+2026-01-07 16:24:06,363 - INFO - [UploadDataService] 🌐 Descargando edicto desde: https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1a
+2026-01-07 16:24:06,702 - WARNING - [UploadDataService] ⚠️ Tipo de archivo no soportado: text/html
+2026-01-07 16:24:06,703 - WARNING - [UploadDataService] ⚠️ No se pudo generar el PDF del edicto
+2026-01-07 16:24:06,797 - INFO - [UploadDataService]   oracleId: 2066776
+2026-01-07 16:24:06,797 - INFO - [UploadDataService]  filename: 2025_1212_Samai_4701_26893_19_2066776_0_Juzgado Circuito 002 Especializado en Restitución de tierras_EDICTO
+2026-01-07 16:24:06,797 - INFO - [UploadDataService]   awsName: SCAN_20251212_Samai_2066776.pdf
+2026-01-07 16:24:06,797 - INFO - [UploadDataService] 🌐 Descargando edicto desde: https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1b
+2026-01-07 16:24:07,693 - WARNING - [UploadDataService] ⚠️ Tipo de archivo no soportado: text/html
+2026-01-07 16:24:07,694 - WARNING - [UploadDataService] ⚠️ No se pudo generar el PDF del edicto
+2026-01-07 16:24:07,776 - INFO - [UploadDataService]   oracleId: 2066777
+2026-01-07 16:24:07,776 - INFO - [UploadDataService]  filename: 2025_1212_Samai_4701_26893_19_2066777_0_Juzgado Circuito 002 Especializado en Restitución de tierras_EDICTO
+2026-01-07 16:24:07,776 - INFO - [UploadDataService]   awsName: SCAN_20251212_Samai_2066777.pdf
+2026-01-07 16:24:07,776 - INFO - [UploadDataService] 🌐 Descargando edicto desde: https://indiceelectronicoportalrestituciondetierras.ramajudicial.gov.co/api/v1/link/share/693f70194dcfdc0012cd3b1c
+2026-01-07 16:24:08,107 - WARNING - [UploadDataService] ⚠️ Tipo de archivo no soportado: text/html
+2026-01-07 16:24:08,107 - WARNING - [UploadDataService] ⚠️ No se pudo generar el PDF del edicto
+2026-01-07 16:24:08,191 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
