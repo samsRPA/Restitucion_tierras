@@ -1,7 +1,7 @@
 
 
 services:
-  rabbitmq:
+  rabbitmq_land_restitution:
     image: rabbitmq:4.1-management
     container_name: rabbitmq_land_restitution
     # ports:
@@ -68,7 +68,7 @@ services:
     ports:
       - "127.0.0.1:5080:5080"
     depends_on:
-      rabbitmq:
+      rabbitmq_land_restitution:
         condition: service_healthy
     networks:
       - rabbitmq_net
@@ -112,18 +112,16 @@ services:
         max-size: "20m"
         max-file: "5"
     deploy:
-      replicas: 1
+      replicas: 5
       resources:
         limits:
           memory: 2000m
 
-  upload_logs:
+  upload_logs_land_rest:
       build:
-        context: ./upload_logs
+        context: ./upload_logs_land_rest
         dockerfile: dockerfile
-      container_name: upload_logs
-
-
+      container_name: upload_logs_land_rest
       networks:
         - rabbitmq_net
       volumes:

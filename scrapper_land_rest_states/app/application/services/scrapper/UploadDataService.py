@@ -47,14 +47,14 @@ class UploadDataService(IUploadDataService):
                 except ValueError:
                     self.logger.warning(f"⚠️ Fecha inválida recibida: {ntfDate_str}")
                     return False                             
-            self.logger.info( f" ntfDate_dt: {ntfDate_dt}")
+          
             oracleId = await  self.torreAwsRep.getNextOracleId(conn)
-            self.logger.info( f"  oracleId: { oracleId}")
+          
                             #Crear nombre
             fileName = f"{ntfDate_dt.strftime('%Y_%m%d')}_Tierras_{location_id}_{litigando_court_id}_{notification_id}_{oracleId}_0_{court_office}_ESTADO"
-            self.logger.info( f" filename: {fileName}")
+           
             awsName = f"SCAN_{ntfDate_dt.strftime('%Y%m%d')}_Tierras_{oracleId}.pdf"   
-            self.logger.info( f"  awsName: {awsName}")
+         
                     #pdf=f"{court_office}_{litigando_court_id}_{ ntfDate_fmt}_{consecutivo}_1_{total_registrations}.pdf"
             path = Path("/app/output/pdfs") / f"{fileName}.pdf"
 
@@ -105,10 +105,10 @@ class UploadDataService(IUploadDataService):
 
                             
             csv_path = Path("app/output/csv") / f"{fileName}.csv"
+            self.processData.generate_fijaciones_csv(fijaciones=fijaciones, output_path=csv_path) 
 
             if  csv_path.exists():
 
-                self.processData.generate_fijaciones_csv(fijaciones=fijaciones, output_path=csv_path)  
                 its_uploades_s3_csv=self.S3_manager.uploadFile(str(csv_path))
                 
                 if its_uploades_s3_csv:

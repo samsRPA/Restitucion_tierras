@@ -51,8 +51,8 @@ class LandRestScrapperStates(ILandRestScrapperStates):
 
             if len(states) >= 1:
                 screenshot_path = await self.browser_service.scrapper_screenshots_notifications(city,court_office,current_year,litigando_court_id)
-                
-            for state in states[:2]:
+                #[:2]
+            for state in states:
                 result= await  self.upload_data_service.uploadData(conn, state,code,court_office, city,location_id,litigando_court_id,notification_id, origin,pdf_pages)
                 if not result:
                     continue

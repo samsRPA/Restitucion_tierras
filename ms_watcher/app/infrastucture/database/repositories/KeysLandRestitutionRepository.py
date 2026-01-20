@@ -33,10 +33,10 @@ class KeysLandRestitutionRepository:
             #CONTROL_ESTADOS_RESTITUCION_TIERRAS  
             query = """
             select * from despachos_estados_restitucion  ERT
-            inner join despachos d on d.despacho_id = ERT.despacho_id  where ERT.despacho_id ='26893'
+            inner join despachos d on d.despacho_id = ERT.despacho_id  
            
             """
-
+#where ERT.despacho_id ='26893'
             async with conn.cursor() as cursor:
                 await cursor.execute(query)
                 rows = await cursor.fetchall() 

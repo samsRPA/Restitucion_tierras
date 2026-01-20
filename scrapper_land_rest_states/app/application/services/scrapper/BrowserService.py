@@ -70,20 +70,30 @@ class BrowserService(IBrowserService):
 
             # 🏛️ Seleccionar despacho judicial
             if selected_city:
-                await self.select_court_office(page, court_office)
+                court_office_selec= await self.select_court_office(page, court_office)
+
+                if court_office_selec:
 
 
-                time.sleep(4)
+                    time.sleep(4)
 
-                fecha_hora_fmt = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
+                    fecha_hora_fmt = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
 
-                screenshot_path = (
-                    f"/app/output/img/estados/"
-                    f"{fecha_hora_fmt}_{litigando_court_id}_{court_office}.png"
-                )
-                await page.screenshot(path=screenshot_path)
-                self.logger.info( f"📸 Captura guardada correctamente | despacho_id={litigando_court_id} | despacho='{court_office}' | ruta={screenshot_path}")
-                return screenshot_path
+                    screenshot_path = (
+                        f"/app/output/img/estados/"
+                        f"{fecha_hora_fmt}_{litigando_court_id}_{court_office}.png"
+                    )
+                    await page.screenshot(path=screenshot_path)
+                    self.logger.info( f"📸 Captura guardada correctamente | despacho_id={litigando_court_id} | despacho='{court_office}' | ruta={screenshot_path}")
+                    return screenshot_path
+                else:
+                    self.logger.error("No se logro seleccionar el despacho  ")
+                    return None
+                    
+            else:
+                self.logger.error("No se logro seleccionar la ciudad ")
+                return None
+                
             
             
         except Exception as e:
@@ -174,7 +184,7 @@ class BrowserService(IBrowserService):
 
             if not found:
                 self.logger.error(f"❌ Despacho NO encontrado: {court_office}")
-                return
+                return None
 
             # 5️⃣ Click final
             await option.first.click()
@@ -182,8 +192,12 @@ class BrowserService(IBrowserService):
 
             await asyncio.sleep(1.5)
 
+            return court_office
+
+            
+
         except Exception as e:
             self.logger.exception(
                 f"❌ Error seleccionando despacho judicial {court_office}: {e}"
             )
-            return
+            return None
