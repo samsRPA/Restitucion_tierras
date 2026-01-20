@@ -67,34 +67,34 @@ class BrowserService(IBrowserService):
             # 🏙️ Seleccionar ciudad
             selected_city= await self.select_city(page, city)
 
+            if not selected_city:
+                self.logger.error("❌ No se logró seleccionar la ciudad")
+                return None
+
 
             # 🏛️ Seleccionar despacho judicial
-            if selected_city:
-                court_office_selec= await self.select_court_office(page, court_office)
+           
+            court_office_selec= await self.select_court_office(page, court_office)
+            
+            if not  court_office_selec:
+                self.logger.error("❌ No se logró seleccionar el despacho")
+                return None
 
-                if court_office_selec:
 
 
-                    time.sleep(4)
+            time.sleep(4)
 
-                    fecha_hora_fmt = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
+            fecha_hora_fmt = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
 
-                    screenshot_path = (
+            screenshot_path = (
                         f"/app/output/img/estados/"
                         f"{fecha_hora_fmt}_{litigando_court_id}_{court_office}.png"
-                    )
-                    await page.screenshot(path=screenshot_path)
-                    self.logger.info( f"📸 Captura guardada correctamente | despacho_id={litigando_court_id} | despacho='{court_office}' | ruta={screenshot_path}")
-                    return screenshot_path
-                else:
-                    self.logger.error("No se logro seleccionar el despacho  ")
-                    return None
-                    
-            else:
-                self.logger.error("No se logro seleccionar la ciudad ")
-                return None
-                
-            
+            )
+            await page.screenshot(path=screenshot_path)
+            self.logger.info( f"📸 Captura guardada correctamente | despacho_id={litigando_court_id} | despacho='{court_office}' | ruta={screenshot_path}")
+
+            return screenshot_path
+         
             
         except Exception as e:
             self.logger.exception(f"❌ Error en screenshots_notifications: {e}")
