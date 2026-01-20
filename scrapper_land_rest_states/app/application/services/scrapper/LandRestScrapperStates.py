@@ -50,7 +50,7 @@ class LandRestScrapperStates(ILandRestScrapperStates):
             self.logger.info( f"📌 Hay {len(states)} estados  para el despacho "  f"{court_office} (id {litigando_court_id})")
 
             if len(states) >= 1:
-                await self.browser_service.scrapper_screenshots_notifications(city,court_office,current_year,litigando_court_id)
+                screenshot_path = await self.browser_service.scrapper_screenshots_notifications(city,court_office,current_year,litigando_court_id)
                 
             for state in states[:2]:
                 result= await  self.upload_data_service.uploadData(conn, state,code,court_office, city,location_id,litigando_court_id,notification_id, origin,pdf_pages)

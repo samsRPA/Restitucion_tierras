@@ -27,8 +27,10 @@ class BrowserService(IBrowserService):
                     args=["--no-sandbox", "--disable-dev-shm-usage"]
                 )
 
-                await self.screenshots_notifications(browser, city,court_office, current_year, litigando_court_id)
-
+                screenshot_path= await self.screenshots_notifications(browser, city,court_office, current_year, litigando_court_id)
+              
+                return screenshot_path
+            
         except asyncio.CancelledError:
             self.logger.warning("⚠️ Tarea de scrapper cancelada.")
             return
@@ -73,18 +75,20 @@ class BrowserService(IBrowserService):
 
                 time.sleep(4)
 
-                fecha_fmt = datetime.now().strftime("%d_%m_%Y")
+                fecha_hora_fmt = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
 
                 screenshot_path = (
                     f"/app/output/img/estados/"
-                    f"{fecha_fmt}_{litigando_court_id}_{court_office}.png"
+                    f"{fecha_hora_fmt}_{litigando_court_id}_{court_office}.png"
                 )
                 await page.screenshot(path=screenshot_path)
                 self.logger.info( f"📸 Captura guardada correctamente | despacho_id={litigando_court_id} | despacho='{court_office}' | ruta={screenshot_path}")
-
+                return screenshot_path
+            
+            
         except Exception as e:
             self.logger.exception(f"❌ Error en screenshots_notifications: {e}")
-            return
+            return None
 
 
   # ==========================================================

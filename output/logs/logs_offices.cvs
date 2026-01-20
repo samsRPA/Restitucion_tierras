@@ -800,3 +800,29 @@ Help: https://docs.oracle.com/error-help/db/ora-00942/
 2026-01-19 14:59:54,403 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
 2026-01-19 14:59:54,405 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
 2026-01-19 14:59:54,406 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 16:30:10,005 - INFO - [RabbitMQProducer] ✅ Conectado a RabbitMQ - Producer
+2026-01-19 16:30:10,008 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 16:30:16,042 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 16:30:16,044 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 16:30:16,045 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-19 16:33:07,102 - INFO - [OfficesLandRestitution] ✅ Se extrayeron 1 despachos
+2026-01-19 16:33:07,104 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_states
+2026-01-19 16:33:07,105 - INFO - [RabbitMQProducer] 📤 Mensaje enviado a land_restitution_edicts
+2026-01-20 08:51:21,581 - ERROR - [connection] Unexpected connection close from remote "amqp://admin:******@rabbitmq:5672//", Connection.Close(reply_code=320, reply_text="CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'")
+NoneType: None
+2026-01-20 08:51:21,668 - INFO - [RabbitMQProducer] 🔌 Conexión con RabbitMQ cerrada
+2026-01-20 08:51:21,690 - ERROR - [tools] Callback <OneShotCallback: cb=<bound method RobustChannel._on_close of <aio_pika.robust_channel.RobustChannel object at 0x77b58da77bc0>>> error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/tools.py", line 306, in __task_inner
+    await self.callback(*args, **kwargs)
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/robust_channel.py", line 119, in _on_close
+    await self.restore()
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/robust_channel.py", line 94, in restore
+    await self.reopen()
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/robust_channel.py", line 132, in reopen
+    await super().reopen()
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/channel.py", line 244, in reopen
+    await self._open()
+  File "/usr/local/lib/python3.12/site-packages/aio_pika/channel.py", line 169, in _open
+    raise ChannelInvalidStateError("No active transport in channel")
+aiormq.exceptions.ChannelInvalidStateError: No active transport in channel

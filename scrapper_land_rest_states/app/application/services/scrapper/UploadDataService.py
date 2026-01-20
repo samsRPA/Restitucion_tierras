@@ -106,9 +106,21 @@ class UploadDataService(IUploadDataService):
                             
             csv_path = Path("app/output/csv") / f"{fileName}.csv"
 
-            self.processData.generate_fijaciones_csv(fijaciones=fijaciones, output_path=csv_path)  
-            self.S3_manager.uploadFile(str(csv_path))
-            
+            if  csv_path.exists():
+
+                self.processData.generate_fijaciones_csv(fijaciones=fijaciones, output_path=csv_path)  
+                its_uploades_s3_csv=self.S3_manager.uploadFile(str(csv_path))
+                
+                if its_uploades_s3_csv:
+                    try:
+                        time.sleep(5)
+                        os.remove(csv_path)
+                        self.logger.info(f"🗑️ Archivo local eliminado: {path}")
+                    except Exception as e:
+                        self.logger.error(f"⚠️ No se pudo eliminar el archivo local {path}: {e}")
+                        return False
+                
+
             await self.torreAwsRep.update_visit_date( conn, litigando_court_id, code)
             return True   
         except Exception as e:

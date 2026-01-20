@@ -604,3 +604,120 @@ Call log:
 2026-01-19 20:00:23,603 - INFO - [ProcessDataService] 📄 CSV de fijaciones generado correctamente → app/output/csv/2026_0116_Tierras_4701_26893_23_5210578_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO.csv
 2026-01-19 20:00:24,523 - INFO - [S3Manager] 📤 Subido a S3: s3://abbyy-liti/NOTIFICACIONES_SCRAPER/SAMAI/CSV/2026_0116_Tierras_4701_26893_23_5210578_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO.csv
 2026-01-19 20:00:25,141 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-19 21:30:14,980 - INFO - [OracleDB] ✅ Pool de Oracle creado exitosamente.
+2026-01-19 21:30:14,981 - INFO - [RabbitMQConsumer] 📡 Conexión no establecida. Conectando...
+2026-01-19 21:30:14,994 - INFO - [RabbitMQConsumer] ✅ Conectado a RabbitMQ - Consumer
+2026-01-19 21:30:14,995 - INFO - [RabbitMQConsumer] 🎧 Esperando mensajes...
+2026-01-19 21:30:16,044 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-19 21:30:16,350 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-19 21:30:16,351 - INFO - [LandRestScrapperStates] current_year: 2026
+2026-01-19 21:30:17,126 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta estados → Juzgado Circuito 002 Especializado en Restitución de tierras de la ciudad SANTA MARTA (MAGDALENA)
+2026-01-19 21:30:17,126 - INFO - [LandRestScrapperStates]   states: [{'id': 69809, 'dia': 20, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-20'}, {'id': 69780, 'dia': 19, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-19'}, {'id': 69756, 'dia': 16, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-16'}, {'id': 69706, 'dia': 14, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-14'}, {'id': 69681, 'dia': 13, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-13'}]
+2026-01-19 21:30:17,127 - INFO - [LandRestScrapperStates] 📌 Hay 5 estados  para el despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 26893)
+2026-01-19 21:30:18,571 - INFO - [BrowserService] 🌐 Navegando a https://portalrestituciondetierras.ramajudicial.gov.co/#/busqueda/reporteEstados
+2026-01-19 21:30:25,146 - INFO - [BrowserService] 🏙️ Buscando ciudad por input: SANTA MARTA (MAGDALENA)
+2026-01-19 21:30:31,598 - ERROR - [BrowserService] ❌ Error seleccionando ciudad SANTA MARTA (MAGDALENA): Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("li[role='option']").filter(has_text="SANTA MARTA (MAGDALENA)").first to be visible
+Traceback (most recent call last):
+  File "/home/app/app/application/services/scrapper/BrowserService.py", line 126, in select_city
+    await option.wait_for(state="visible", timeout=5000)
+  File "/usr/local/lib/python3.10/dist-packages/playwright/async_api/_generated.py", line 17876, in wait_for
+    await self._impl_obj.wait_for(timeout=timeout, state=state)
+  File "/usr/local/lib/python3.10/dist-packages/playwright/_impl/_locator.py", line 692, in wait_for
+    await self._frame.wait_for_selector(
+  File "/usr/local/lib/python3.10/dist-packages/playwright/_impl/_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "/usr/local/lib/python3.10/dist-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/usr/local/lib/python3.10/dist-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("li[role='option']").filter(has_text="SANTA MARTA (MAGDALENA)").first to be visible
+
+2026-01-19 21:30:32,277 - INFO - [GetDataService] 📄 [HTTP 200] Detalle de estado obtenido | Fecha=2026-1-20 | Despacho=Juzgado Circuito 002 Especializado en Restitución de tierras | Ciudad=SANTA MARTA (MAGDALENA)
+2026-01-19 21:30:32,278 - INFO - [GetDataService] ✅ Estado procesado correctamente | Despacho=Juzgado Circuito 002 Especializado en Restitución de tierras | Fecha=2026-1-20
+2026-01-19 21:30:32,280 - INFO - [UploadDataService]  ntfDate_dt: 2026-01-20 00:00:00
+2026-01-19 21:30:32,368 - INFO - [UploadDataService]   oracleId: 5210732
+2026-01-19 21:30:32,368 - INFO - [UploadDataService]  filename: 2026_0120_Tierras_4701_26893_23_5210732_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO
+2026-01-19 21:30:32,368 - INFO - [UploadDataService]   awsName: SCAN_20260120_Tierras_5210732.pdf
+2026-01-19 21:30:32,481 - INFO - [UploadDataService] 📄 Generando PDF de fijación de estado
+2026-01-19 21:30:33,217 - INFO - [S3Manager] 📤 Subido a S3: s3://abbyy-liti/NOTIFICACIONES_SCRAPER/SAMAI/PDF/2026_0120_Tierras_4701_26893_23_5210732_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO.pdf
+2026-01-19 21:30:33,217 - INFO - [UploadDataService] ✅ archivo  /app/output/pdfs/2026_0120_Tierras_4701_26893_23_5210732_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO.pdf subido a S3
+2026-01-19 21:30:33,316 - INFO - [UploadDataService] 🟢 Notificacion insertada en TAWS (consecutivo =4, fecha=2026-01-20 00:00:00, despacho id=26893).
+2026-01-19 21:30:33,427 - INFO - [UploadDataService] 🔵 Notificacion insertada en TA (consecutivo =4, fecha=2026-01-20 00:00:00, despacho id=26893).
+2026-01-19 21:30:38,443 - INFO - [UploadDataService] 🗑️ Archivo local eliminado: /app/output/pdfs/2026_0120_Tierras_4701_26893_23_5210732_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO.pdf
+2026-01-19 21:30:38,444 - INFO - [ProcessDataService] 📄 CSV de fijaciones generado correctamente → app/output/csv/2026_0120_Tierras_4701_26893_23_5210732_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO.csv
+2026-01-19 21:30:38,846 - INFO - [S3Manager] 📤 Subido a S3: s3://abbyy-liti/NOTIFICACIONES_SCRAPER/SAMAI/CSV/2026_0120_Tierras_4701_26893_23_5210732_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO.csv
+2026-01-19 21:30:40,069 - INFO - [GetDataService] 📄 [HTTP 200] Detalle de estado obtenido | Fecha=2026-1-19 | Despacho=Juzgado Circuito 002 Especializado en Restitución de tierras | Ciudad=SANTA MARTA (MAGDALENA)
+2026-01-19 21:30:40,070 - INFO - [GetDataService] ✅ Estado procesado correctamente | Despacho=Juzgado Circuito 002 Especializado en Restitución de tierras | Fecha=2026-1-19
+2026-01-19 21:30:40,071 - INFO - [UploadDataService]  ntfDate_dt: 2026-01-19 00:00:00
+2026-01-19 21:30:40,172 - INFO - [UploadDataService]   oracleId: 5210733
+2026-01-19 21:30:40,172 - INFO - [UploadDataService]  filename: 2026_0119_Tierras_4701_26893_23_5210733_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO
+2026-01-19 21:30:40,172 - INFO - [UploadDataService]   awsName: SCAN_20260119_Tierras_5210733.pdf
+2026-01-19 21:30:40,292 - INFO - [UploadDataService] 📂 [69780] Notificacion  ya existe en la BD (consecutivo =3, fecha=2026-01-19 00:00:00, despacho id=26893). No se insertará.
+2026-01-19 21:30:40,484 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-19 21:33:07,104 - INFO - [RabbitMQConsumer] 📥 Mensaje recibido
+2026-01-19 21:33:07,105 - INFO - [RabbitMQConsumer] 🚀 Ejecutando scrapper...
+2026-01-19 21:33:07,227 - INFO - [LandRestScrapperStates] current_year: 2026
+2026-01-19 21:33:07,652 - INFO - [GetDataService] 🌐 [HTTP 200] Consulta estados → Juzgado Circuito 002 Especializado en Restitución de tierras de la ciudad SANTA MARTA (MAGDALENA)
+2026-01-19 21:33:07,653 - INFO - [LandRestScrapperStates]   states: [{'id': 69809, 'dia': 20, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-20'}, {'id': 69780, 'dia': 19, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-19'}, {'id': 69756, 'dia': 16, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-16'}, {'id': 69706, 'dia': 14, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-14'}, {'id': 69681, 'dia': 13, 'mes': 1, 'anho': 2026, 'count': 0, 'key': '2026-1-13'}]
+2026-01-19 21:33:07,653 - INFO - [LandRestScrapperStates] 📌 Hay 5 estados  para el despacho Juzgado Circuito 002 Especializado en Restitución de tierras (id 26893)
+2026-01-19 21:33:08,032 - INFO - [BrowserService] 🌐 Navegando a https://portalrestituciondetierras.ramajudicial.gov.co/#/busqueda/reporteEstados
+2026-01-19 21:33:10,604 - INFO - [BrowserService] 🏙️ Buscando ciudad por input: SANTA MARTA (MAGDALENA)
+2026-01-19 21:33:17,129 - ERROR - [BrowserService] ❌ Error seleccionando ciudad SANTA MARTA (MAGDALENA): Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("li[role='option']").filter(has_text="SANTA MARTA (MAGDALENA)").first to be visible
+Traceback (most recent call last):
+  File "/home/app/app/application/services/scrapper/BrowserService.py", line 126, in select_city
+    await option.wait_for(state="visible", timeout=5000)
+  File "/usr/local/lib/python3.10/dist-packages/playwright/async_api/_generated.py", line 17876, in wait_for
+    await self._impl_obj.wait_for(timeout=timeout, state=state)
+  File "/usr/local/lib/python3.10/dist-packages/playwright/_impl/_locator.py", line 692, in wait_for
+    await self._frame.wait_for_selector(
+  File "/usr/local/lib/python3.10/dist-packages/playwright/_impl/_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "/usr/local/lib/python3.10/dist-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/usr/local/lib/python3.10/dist-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("li[role='option']").filter(has_text="SANTA MARTA (MAGDALENA)").first to be visible
+
+2026-01-19 21:33:17,919 - INFO - [GetDataService] 📄 [HTTP 200] Detalle de estado obtenido | Fecha=2026-1-20 | Despacho=Juzgado Circuito 002 Especializado en Restitución de tierras | Ciudad=SANTA MARTA (MAGDALENA)
+2026-01-19 21:33:17,920 - INFO - [GetDataService] ✅ Estado procesado correctamente | Despacho=Juzgado Circuito 002 Especializado en Restitución de tierras | Fecha=2026-1-20
+2026-01-19 21:33:17,921 - INFO - [UploadDataService]  ntfDate_dt: 2026-01-20 00:00:00
+2026-01-19 21:33:18,004 - INFO - [UploadDataService]   oracleId: 5210736
+2026-01-19 21:33:18,005 - INFO - [UploadDataService]  filename: 2026_0120_Tierras_4701_26893_23_5210736_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO
+2026-01-19 21:33:18,005 - INFO - [UploadDataService]   awsName: SCAN_20260120_Tierras_5210736.pdf
+2026-01-19 21:33:18,084 - INFO - [UploadDataService] 📂 [69809] Notificacion  ya existe en la BD (consecutivo =4, fecha=2026-01-20 00:00:00, despacho id=26893). No se insertará.
+2026-01-19 21:33:18,820 - INFO - [GetDataService] 📄 [HTTP 200] Detalle de estado obtenido | Fecha=2026-1-19 | Despacho=Juzgado Circuito 002 Especializado en Restitución de tierras | Ciudad=SANTA MARTA (MAGDALENA)
+2026-01-19 21:33:18,820 - INFO - [GetDataService] ✅ Estado procesado correctamente | Despacho=Juzgado Circuito 002 Especializado en Restitución de tierras | Fecha=2026-1-19
+2026-01-19 21:33:18,821 - INFO - [UploadDataService]  ntfDate_dt: 2026-01-19 00:00:00
+2026-01-19 21:33:18,907 - INFO - [UploadDataService]   oracleId: 5210737
+2026-01-19 21:33:18,907 - INFO - [UploadDataService]  filename: 2026_0119_Tierras_4701_26893_23_5210737_0_Juzgado Circuito 002 Especializado en Restitución de tierras_ESTADO
+2026-01-19 21:33:18,907 - INFO - [UploadDataService]   awsName: SCAN_20260119_Tierras_5210737.pdf
+2026-01-19 21:33:18,986 - INFO - [UploadDataService] 📂 [69780] Notificacion  ya existe en la BD (consecutivo =3, fecha=2026-01-19 00:00:00, despacho id=26893). No se insertará.
+2026-01-19 21:33:19,139 - INFO - [RabbitMQConsumer] ✅ Scrapper finalizado
+2026-01-20 13:51:21,590 - ERROR - [connection] Unexpected connection close from remote "amqp://admin:******@rabbitmq:5672//", Connection.Close(reply_code=320, reply_text="CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'")
+NoneType: None
+2026-01-20 13:51:21,673 - INFO - [robust_connection] Connection to amqp://admin:******@rabbitmq:5672// closed. Reconnecting after 5 seconds.
+2026-01-20 13:51:21,701 - ERROR - [tools] Callback <OneShotCallback: cb=<bound method RobustChannel._on_close of <aio_pika.robust_channel.RobustChannel object at 0x7b7572e94580>>> error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/aio_pika/tools.py", line 306, in __task_inner
+    await self.callback(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/aio_pika/robust_channel.py", line 119, in _on_close
+    await self.restore()
+  File "/usr/local/lib/python3.10/dist-packages/aio_pika/robust_channel.py", line 94, in restore
+    await self.reopen()
+  File "/usr/local/lib/python3.10/dist-packages/aio_pika/robust_channel.py", line 132, in reopen
+    await super().reopen()
+  File "/usr/local/lib/python3.10/dist-packages/aio_pika/channel.py", line 244, in reopen
+    await self._open()
+  File "/usr/local/lib/python3.10/dist-packages/aio_pika/channel.py", line 169, in _open
+    raise ChannelInvalidStateError("No active transport in channel")
+aiormq.exceptions.ChannelInvalidStateError: No active transport in channel
+2026-01-20 13:51:21,740 - INFO - [robust_connection] Connection to amqp://admin:******@rabbitmq:5672// closed. Reconnecting after 5 seconds.
+2026-01-20 13:51:21,740 - WARNING - [robust_connection] Connection attempt to "amqp://admin:******@rabbitmq:5672//" failed: [Errno 111] Connect call failed ('172.22.0.3', 5672). Reconnecting after 5 seconds.
