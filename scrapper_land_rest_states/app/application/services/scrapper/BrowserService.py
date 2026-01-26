@@ -4,6 +4,7 @@ from playwright.async_api import async_playwright, Page, Browser
 import time
 from app.domain.interfaces.IBrowserService import IBrowserService
 from datetime import datetime
+import os
 
 class BrowserService(IBrowserService):
 
@@ -85,9 +86,13 @@ class BrowserService(IBrowserService):
             time.sleep(4)
 
             fecha_hora_fmt = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
+            base_dir = "/app/output/img/estados"
+
+            # Crear la ruta si no existe
+            os.makedirs(base_dir, exist_ok=True)
 
             screenshot_path = (
-                        f"/app/output/img/estados/"
+                        f"{base_dir}/"
                         f"{fecha_hora_fmt}_{litigando_court_id}_{court_office}.png"
             )
             await page.screenshot(path=screenshot_path)
@@ -97,7 +102,7 @@ class BrowserService(IBrowserService):
          
             
         except Exception as e:
-            self.logger.exception(f"❌ Error en screenshots_notifications: {e}")
+           
             return None
 
 
@@ -140,7 +145,7 @@ class BrowserService(IBrowserService):
             return city
 
         except Exception as e:
-            self.logger.exception(f"❌ Error seleccionando ciudad {city}: {e}")
+           
             return None
 
     # ==========================================================
@@ -197,7 +202,5 @@ class BrowserService(IBrowserService):
             
 
         except Exception as e:
-            self.logger.exception(
-                f"❌ Error seleccionando despacho judicial {court_office}: {e}"
-            )
+          
             return None

@@ -8,3 +8,4 @@ boto3==1.35.36
 botocore==1.35.36
 reportlab
 playwright==1.55.0
+tzdata

@@ -9,5 +9,3 @@ class IGetOfficesService(ABC):
     def get_offices(self):
         pass
 
-    async def insert_offices(self):
-         pass 

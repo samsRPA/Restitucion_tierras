@@ -191,7 +191,6 @@ class BulkUploadService(IBulkUploadService):
         """
         base_path = str(base_path)
         rutas = [
-            os.path.join(base_path,  "estados"),
             os.path.join(base_path,  "img")
         ]
 
@@ -213,4 +212,4 @@ class BulkUploadService(IBulkUploadService):
                 except Exception as e:
                     self.logger.error(f"❌ No se pudo eliminar {item_path}: {e}")
 
-        self.logger.info("🧹 Limpieza de output/estados y output/img completada")
+        self.logger.info("🧹 Limpieza de output y output/img completada")

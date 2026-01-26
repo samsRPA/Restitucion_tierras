@@ -1,23 +1,21 @@
 FROM mcr.microsoft.com/playwright/python:v1.55.0-jammy
 
-
 WORKDIR /home/app
 
-# 🔹 Evitar prompts interactivos en la instalación
 ENV DEBIAN_FRONTEND=noninteractive
-
-# 🔹 Configurar zona horaria por defecto (Bogotá)
 ENV TZ=America/Bogota
 
-# 🔹 Copiar requirements y limpiar duplicados
+# 🔹 INSTALAR tzdata del sistema
+RUN apt-get update \
+    && apt-get install -y tzdata \
+    && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime \
+    && echo $TZ > /etc/timezone \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 COPY requirements.txt .
-
-
-# 🔹 Instalar dependencias Python
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 🔹 Copiar el código al contenedor
 COPY . /home/app
 
-# 🔹 Comando por defecto
 CMD ["python", "main.py"]

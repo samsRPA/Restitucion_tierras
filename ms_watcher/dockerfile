@@ -5,12 +5,20 @@ RUN apt-get update && apt-get install -y curl
 
 # Copiar la aplicación
 WORKDIR /home/app
-COPY . /home/app
 
-# Instalar dependencias Python
+
+# 🔹 Evitar prompts interactivos en la instalación
+ENV DEBIAN_FRONTEND=noninteractive
+
+# 🔹 Configurar zona horaria por defecto (Bogotá)
+ENV TZ=America/Bogota
+
+
 COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip \
  && pip install --no-cache-dir -r requirements.txt
+
+COPY . /home/app
 
 # Exponer el puerto
 EXPOSE 5080

@@ -48,8 +48,10 @@ async def main():
         await db.connect()
 
        
-        await consumer.startConsuming()
-            #start_logger()
+        await asyncio.gather(
+            consumer.startConsuming(),
+            start_logger()
+        )
             
     except Exception as e:
         logger.exception("❌ Error durante la ejecución principal", exc_info=e)

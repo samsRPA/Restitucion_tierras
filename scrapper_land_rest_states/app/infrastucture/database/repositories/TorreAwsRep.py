@@ -52,7 +52,7 @@ class TorreAwsRep():
               
     async def addAwsRecord(
         self, conn, oracleId:int, awsName:str,archivoAbby:str, pdfPages: int, csvRowCounts: int,
-        litigandoCourtId: int, locationId: int, notificationId: int, ntfDate:datetime,consecutive:int,origin:str ) -> int:
+        litigandoCourtId: int, locationId: int, notificationId: int, ntfDate:datetime,consecutive:int,origin:str,state ) -> int:
         try:
             query = f"""
                 INSERT INTO {self._table} (
@@ -69,7 +69,8 @@ class TorreAwsRep():
                     NOTIFICACION_ID,
                     FECHA_DOCUMENTO,
                     CORREO,
-                    ORIGEN
+                    ORIGEN,
+                    ESTADO
                 ) VALUES (
                     :oracleId,
                     :awsNameOriginal,
@@ -85,6 +86,7 @@ class TorreAwsRep():
                     :ntfDate,
                     'Restitucion_Node',
                     :origin
+                    :state
                 )
             """
             async with conn.cursor() as cursor:
@@ -100,7 +102,8 @@ class TorreAwsRep():
                     "locationId": locationId,
                     "notificationId": notificationId,
                     "ntfDate":ntfDate,
-                    "origin":origin
+                    "origin":origin,
+                    "state":state
                 })
                 return True
         except Exception as e:

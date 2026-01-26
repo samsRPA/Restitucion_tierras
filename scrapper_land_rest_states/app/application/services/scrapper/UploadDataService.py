@@ -39,6 +39,7 @@ class UploadDataService(IUploadDataService):
             ntfDate_str = notification.get("fechaEstado", "")
             consecutive = notification.get("consecutivo", "") 
             total_registrations = len(fijaciones)
+            state=None
                     
             ntfDate_dt = None
             if ntfDate_str:
@@ -86,7 +87,11 @@ class UploadDataService(IUploadDataService):
                             #fecha_db = ntfDate_dt.strftime('%d/%m/%Y')
                             #self.logger.info( f" filename: { fecha_db}")
                         #Insertar registro en torre aws y torre
-            inserted_taws= await self.torreAwsRep.addAwsRecord( conn, oracleId, awsName, f"{fileName}.pdf", pdf_pages,total_registrations, litigando_court_id, location_id, notification_id,ntfDate_dt,consecutive,origin)
+                        
+            if total_registrations==0:
+                state="SIN_REGISTROS"
+                        
+            inserted_taws= await self.torreAwsRep.addAwsRecord( conn, oracleId, awsName, f"{fileName}.pdf", pdf_pages,total_registrations, litigando_court_id, location_id, notification_id,ntfDate_dt,consecutive,origin,state)
 
             if inserted_taws:
                 self.logger.info(f"🟢 Notificacion insertada en TAWS (consecutivo ={consecutive}, fecha={ntfDate_dt}, despacho id={litigando_court_id}).")
